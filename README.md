@@ -1,2 +1,6 @@
 # Hackathon
-challenge
+challenge by
+Pratyusha
+Laharika
+Reshma
+Humayra

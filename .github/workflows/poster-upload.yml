@@ -1,0 +1,14 @@
+name: Poster Upload Notifier
+
+on:
+  push:
+    branches: [ main, 'poster/*' ]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Success message
+        run: echo "Poster Uploaded Successfully"
