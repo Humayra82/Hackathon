@@ -2,7 +2,7 @@ name: Poster Upload Notifier
 
 on:
   push:
-    branches: [ main, 'poster/*' ]
+    branches: [ main, 'poster/<humayra>' ]
 
 jobs:
   notify:
